@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gexarus Auth</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="gx-auth">
+      <div class="gx-auth__slider gx-active-sl1">
+        <div class="gx-slider__wrapper">
+          <div class="gx-slider__block gx-slider__block-sl1">
+            <img src="./assets/images/sl1.png" alt="" class="gx-slider-img" />
+          </div>
+          <div class="gx-slider__block gx-slider__block-sl2">
+            <img src="./assets/images/sl2.png" alt="" class="gx-slider-img" />
+            <img src="./assets/images/sl22.png" alt="" class="gx-slider-img" />
+          </div>
+          <div class="gx-slider__block gx-slider__block-sl3">
+            <img src="./assets/images/sl31.png" alt="" class="gx-slider-img" />
+            <img src="./assets/images/sl32.png" alt="" class="gx-slider-img" />
+            <img src="./assets/images/sl33.png" alt="" class="gx-slider-img" />
+          </div>
+          <div class="gx-slider__block gx-slider__block-sl4">
+            <img src="./assets/images/sl4.png" alt="" class="gx-slider-img" />
+          </div>
+        </div>
+        <div class="gx-slider__content">
+          <div class="gx-sliden__text gx-sliden__text-sl1">
+            <h1>Удобные таблицы для управления данными</h1>
+            <p>
+              Данные организованны в виде таблиц, что обеспечивает эффективное
+              управление контентом вашего проекта
+            </p>
+          </div>
+          <div class="gx-sliden__text gx-sliden__text-sl2">
+            <h1>Мгновенный поиск информации</h1>
+            <p>
+              Встроенная система быстрой навигации позволяет быстро перемещаться
+              между разными разделами и страницами
+            </p>
+          </div>
+          <div class="gx-sliden__text gx-sliden__text-sl3">
+            <h1>Понятный и приятный интерфейс</h1>
+            <p>
+              Вы быстро освоите программу — функции и элементы управления
+              находятся на виду и легко доступны
+            </p>
+          </div>
+          <div class="gx-sliden__text gx-sliden__text-sl4">
+            <h1>Данные под надежной защитой</h1>
+            <p>
+              Программа обеспечивает безопасность ваших данных, защищая их от
+              несанкционированного доступа и утечек
+            </p>
+          </div>
+        </div>
+        <div class="gx-slider__dots">
+          <div class="gx-slider__dot gx-slider__dot-sl1"></div>
+          <div class="gx-slider__dot gx-slider__dot-sl2"></div>
+          <div class="gx-slider__dot gx-slider__dot-sl3"></div>
+          <div class="gx-slider__dot gx-slider__dot-sl4"></div>
+        </div>
+      </div>
+      <div class="gx-auth__wrapper">
+        <img src="./assets/gexarus.svg" alt="" class="gx-logo" />
+        <h1 class="gx-auth__title">Присоединяйтесь к Гексарус</h1>
+        <p class="gx-auth__sub--title">
+          Введите данные для входа или создайте аккаунт на платформе
+        </p>
+        <form class="gx-auth__form">
+          <input
+            type="email"
+            name="email"
+            class="gx-auth__input"
+            placeholder="Электронная почта"
+          />
+          <input
+            type="password"
+            name="email"
+            class="gx-auth__input"
+            placeholder="Пароль"
+          />
+          <div class="gx-form__row">
+            <input
+              type="checkbox"
+              class="gx-checkbox"
+              id="gxCheckbox"
+              name="remember"
+              value="yes"
+            />
+            <label for="gxCheckbox" class="gx-checkbox__label">
+              <div class="box"></div>
+              <span>Запомнить меня</span>
+            </label>
+
+            <a href="" class="forgot">Забыли пароль?</a>
+          </div>
+          <button type="submit" class="gx-form__btn">Войти</button>
+        </form>
+        <div class="gx-other__sign">
+          <h3>Или войдите с помощью</h3>
+          <div class="gx-other__sign-row">
+            <a href="/"><img src="/assets/vk.svg" alt="" /></a>
+            <a href="/"><img src="/assets/tg.svg" alt="" /></a>
+            <a href="/"><img src="/assets/ya.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
